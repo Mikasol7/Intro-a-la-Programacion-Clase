@@ -1,4 +1,4 @@
-.prueba{
+/* .prueba{
     color: rgb(139, 81, 233);
     padding: 20px;
     margin: 20px;
@@ -13,18 +13,58 @@
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-}
+} */
 
-.hijo1{
-    width: 550px;
-    height: 550px;
-    position: absolute;
+.parent{
+    background-color: rgb(224, 168, 46);
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 100px;
+
+}
+.children1{
+    width: 100px;
+    height: 100px;
+    position: static;
     top: 500px;
     background-color: chartreuse;
+    border: 10px;
+
 }
-.padre{
-    width: 500px;
-    height: 500px;
+
+.children2{
+    width: 100px;
+    height: 100px;
+    position: static;
+    background-color: red;
+}
+
+.children3{
+    width: 100px;
+    height: 100px;
+    position: static;
+    background-color: rgb(67, 125, 248);
+}
+
+.children4{
+    width: 100px;
+    height: 100px;
+    position: static;
+    background-color: rgb(255, 244, 83);
+}
+
+.children:nth-child(even){
+    width: 50px;
+    height: 50px;
+
+}
+@media screen and (min-width: 480px) {
+    .parent{
     background-color: blueviolet;
-    position: relative;
+    flex-direction: row;
+}
+    
 }
