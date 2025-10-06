@@ -1,0 +1,26 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.celda {
+    outline: 5px solid rgb(167, 113, 238);
+    width: 100px;
+    height: 100px;
+}
+
+.grilla {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fila {
+    display: flex;
+    gap: 20px;
+
+}
